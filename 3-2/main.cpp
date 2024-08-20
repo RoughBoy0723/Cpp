@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(void){
-    Calculator cal;
+    Calculator cal();
     //cal.Init();
     cout << "3.2 + 2.4 = " << cal.Add(3.2, 2.4) << endl;
     cout << "3.5 / 1.7 = " << cal.Div(3.5, 1.7) << endl;
