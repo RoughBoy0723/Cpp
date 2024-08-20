@@ -8,7 +8,7 @@ class Calculator{
         int min_cnt;
 
     public :
-        void Init();
+        Calculator();
         double Add(double a, double b);
         double Div(double a, double b);
         double Mul(double a, double b);

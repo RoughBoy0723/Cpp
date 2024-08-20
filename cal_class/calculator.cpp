@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Calculator::Init(){
+Calculator::Calculator(){
     add_cnt = 0;
     div_cnt = 0;
     mul_cnt = 0;
