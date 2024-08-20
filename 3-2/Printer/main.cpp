@@ -2,6 +2,7 @@
 
 int main(){
     Printer pnt;
+    
     pnt.SetString("Hello world");
     pnt.ShowString();
 
