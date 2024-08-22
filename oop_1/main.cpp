@@ -19,7 +19,7 @@ typedef struct{
 }Account;
 
 Account account[100];
-
+int accNum = 0;
 
 int main(){
     int choice;
