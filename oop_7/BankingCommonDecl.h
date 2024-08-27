@@ -19,4 +19,4 @@ enum {Normal = 1, HighCredit};
 enum {A = 7, B = 4, C = 2};
 
 
-#endif;
+#endif

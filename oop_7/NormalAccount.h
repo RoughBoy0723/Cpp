@@ -16,7 +16,6 @@ public:
 
     virtual void DepositMoney(int money){
         Account::DepositMoney(money);
-        cout << late << endl;;
         Account::DepositMoney(money * (late / 100.0));
     };
 

@@ -5,7 +5,10 @@
  */
 
 #include "AccountHandler.h"
-#include "BanckCommonDecl.h"
+#include "Account.h"
+#include "NormalAccount.h"
+#include "HighCreditAccount.h"
+#include "BankingCommonDecl.h"
 
 AccountHandler::AccountHandler():accNum(0){}
 

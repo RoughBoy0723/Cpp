@@ -16,7 +16,6 @@ public:
 
     virtual void DepositMoney(int money){
         NormalAccount::DepositMoney(money);
-        cout << creditlate << endl;;
         Account::DepositMoney(money * (creditlate / 100.0));
     };
 };

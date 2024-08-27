@@ -5,7 +5,7 @@
  */
 
 #include "Account.h"
-#include "BanckCommonDecl.h"
+#include "BankingCommonDecl.h"
 
 Account::Account(int ID, char* name, int money):accID(ID),balance(money){
     cusName = new char[strlen(name) + 1];

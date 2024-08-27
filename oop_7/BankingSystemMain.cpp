@@ -4,7 +4,7 @@
  * 08/25 21:47 0.7
  */
 
-#include "BanckCommanDecl.h"
+#include "BankingCommonDecl.h"
 #include "AccountHandler.h"
 
 int main(void){
